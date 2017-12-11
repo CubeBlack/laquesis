@@ -1,0 +1,47 @@
+*{
+	padding:0;
+	margin:0;
+	color:red;
+	background-color:purple;
+	border-color:1px solid red;
+}
+#background{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color:black;
+}
+#background img{
+	height:100%;
+	width:100%;
+}
+#money{
+	position: absolute;
+	top:0;
+	right:0;
+	border-bottom: 1px solid blue;
+	border-left: 1px solid blue;
+	background-color:white;
+	color:blue;
+	padding:2px;
+}
+#quests{
+	position:absolute;
+	top:50px;
+	right:0;
+	width:200px;
+	max-height:calc(100% - 65px);
+	background-color:rgba(255,255,255,0.5);
+}
+#quests ul{
+	margin:5px;
+	padding:5px;
+	background-color:rgba(255,255,255,0.5);
+}
+#quests li{
+	padding-left:20px;
+	list-style:none;
+	background-color:rgba(0,0,0,0);
+}
